@@ -1,0 +1,33 @@
+body {
+  color: #212121;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #000;
+}
+
+#game-field {
+  display: grid;
+  grid-template-rows: repeat(4, 120px);
+  grid-template-columns: repeat(4, 120px);
+  margin: 15px auto;
+  gap: 5px;
+  width: fit-content;
+}
+
+.cell {
+  border: 1px solid green;
+  background-color: #d9eed9;
+
+}
+
+.goblin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50px;
+  width: 50px;
+}
